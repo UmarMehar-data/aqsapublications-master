@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>@yield('title')</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   @include('layouts.website_partials.header')
+</head>
+
+<body>
+
+    @include('layouts.website_partials.navbar')
+
+
+    @yield('content')
+
+
+
+    @include('layouts.website_partials.footer')
+</body>
+
+
+</html>
